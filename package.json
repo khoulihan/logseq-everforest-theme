@@ -1,9 +1,10 @@
 {
-  "name": "Everforest Theme",
-  "title": "Everforest",
+  "name": "logseq-plugin-everforest-theme",
   "author": "Kevin Houlihan",
-  "version": "0.1.0",
-  "description": "Warm green low contrast theme",
+  "version": "0.1.1",
+  "description": "Warm green low-contrast theme",
+  "license": "MIT",
+  "repository": "khoulihan/logseq-everforest-theme",
   "main": "index.html",
   "logseq": {
     "themes": [
@@ -44,9 +45,8 @@
         "mode": "light"
       }
     ],
-    "id": "hyh-everforest-theme"
-  },
-  "repo": "khoulihan/logseq-everforest-theme",
-  "theme": true,
-  "effect": false
+    "id": "logseq-everforest-theme",
+    "title": "Everforest",
+    "icon": "icon.svg"
+  }
 }
