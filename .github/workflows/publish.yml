@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.1.1
         with:
           submodules: 'true'
       - name: Build
@@ -20,7 +20,7 @@ jobs:
           cp README.md package.json index.html index.js *.css ${{ env.PLUGIN_NAME }} # move build assets
           zip -r ${{ env.PLUGIN_NAME }}-${{ github.ref_name }}.zip ${{ env.PLUGIN_NAME }} # create zip
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v0.1.15
         id: create_release
         with: 
           draft: true
