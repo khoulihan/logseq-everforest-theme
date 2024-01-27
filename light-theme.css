@@ -1,0 +1,104 @@
+/* Journal button opacity */
+.nav-header a {
+  opacity: 1.0;
+}
+
+/* Menu item opacity */
+html[data-theme='light'] .cp__header a, html[data-theme='light'] .cp__header button,
+.left-sidebar-inner .dropdown-wrapper .menu-link {
+  opacity: 1.0;
+}
+
+/* Colour scheme */
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+  --ls-primary-background-color: var(--ef-bg0);
+  --ls-secondary-background-color: var(--ef-bg1);
+  --ls-tertiary-background-color: var(--ef-bg-dim);
+  --ls-quaternary-background-color: var(--ef-bg3);
+  --ls-table-tr-even-background-color: var(--ef-bg-dim);
+  --ls-active-primary-color: var(--ef-accent);
+  --ls-active-secondary-color: var(--ef-yellow);
+  --ls-block-properties-background-color: var(--ef-bg-dim);
+  --ls-page-properties-background-color: var(--ef-bg-dim);
+  --ls-block-ref-link-text-color: var(--ef-orange);
+  --ls-border-color: var(--ef-bg-dim);
+  --ls-secondary-border-color: var(--ef-gray2);
+  --ls-tertiary-border-color: rgba(0, 2, 0, 0.1);
+  --ls-guideline-color: var(--ef-bg2);
+  --ls-menu-hover-color: var(--ls-secondary-background-color);
+  --ls-primary-text-color: var(--ef-fg);
+  --ls-secondary-text-color: var(--ef-fg-bright);
+  --ls-title-text-color: var(--ef-fg-bright);
+  --ls-link-text-color: var(--ef-accent);
+  --ls-link-text-hover-color: var(--ef-secondary-accent);
+  --ls-link-ref-text-color: var(--ls-link-text-color);
+  --ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
+  --ls-tag-text-color: var(--ls-link-text-color);
+  --ls-tag-text-hover-color: var(--ls-link-text-hover-color);
+  --ls-slide-background-color: var(--ls-primary-background-color);
+  --ls-block-bullet-border-color: var(--ef-green);
+  --ls-block-bullet-color: var(--ef-bg2);
+  --ls-block-highlight-color: var(--ef-bg3);
+  --ls-selection-background-color: var(--ef-bg-visual);
+  --ls-selection-text-color: var(--ef-fg-bright);
+  --ls-page-checkbox-color: var(--ef-gray2);
+  --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+  --ls-page-blockquote-color: var(--ls-primary-text-color);
+  --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
+  --ls-page-blockquote-border-color: var(--ls-border-color);
+  --ls-page-mark-color: var(--ef-bg-dim);
+  --ls-page-mark-bg-color: var(--ef-yellow);
+  --ls-page-inline-code-color: var(--ls-secondary-text-color);
+  --ls-page-inline-code-bg-color: var(--ef-bg-accent);
+  --ls-scrollbar-foreground-color: var(--ef-bg5);
+  --ls-scrollbar-background-color: rgba(30, 60, 67, 0.1);
+  --ls-scrollbar-thumb-hover-color: rgba(255, 255, 255, 0.2);
+  --ls-cloze-text-color: var(--ef-orange);
+  --ls-icon-color: var(--ls-link-text-color);
+  --ls-search-icon-color: var(--ls-primary-text-color);
+  --ls-search-icon-hover-color: var(--ls-secondary-text-color);
+  --ls-a-chosen-bg: var(--ls-quaternary-background-color);
+  --ls-pie-bg-color: var(--ef-bg-dim);
+  --ls-pie-fg-color: var(--ef-gray2);
+  
+  --ls-highlight-color-gray: var(--color-gray-900);
+  --ls-highlight-color-red: var(--color-red-900);
+  --ls-highlight-color-yellow: var(--color-yellow-900);
+  --ls-highlight-color-green: var(--color-green-900);
+  --ls-highlight-color-blue: var(--color-blue-900);
+  --ls-highlight-color-purple: var(--color-purple-900);
+  --ls-highlight-color-pink: var(--color-pink-900);
+  --ls-error-text-color: var(--color-red-400);
+  --ls-error-background-color: var(--color-red-900);
+  --ls-warning-text-color: var(--color-yellow-400);
+  --ls-warning-background-color: var(--color-yellow-900);
+  --ls-success-text-color: var(--color-green-100);
+  --ls-success-background-color: var(--color-green-900);
+  --ls-focus-ring-color: rgba(18, 98, 119, 0.5);
+  
+  --ls-header-button-text-color: var(--ef-fg-bright);
+  --ls-header-button-background: var(--ef-green);
+  --ls-left-sidebar-text-color: var(--ef-sidebar-accent);
+  --ls-button-background: var(--ef-bg-dim);
+  --color-level-1: var(--ls-secondary-background-color);
+  --color-level-2: var(--ls-tertiary-background-color);
+  --color-level-3: var(--ls-quaternary-background-color);
+  --color-level-4: var(--ef-bg4);
+  --color-level-5: var(--ef-bg5);
+  --color-level-6: var(--ef-gray0);
+}
+
+/* Setting --ls-tag-text-color was not sufficient to override the tag colours */
+.white-theme a.tag,
+.light-theme a.tag,
+html[data-theme='light'] a.tag {
+  color: var(--ef-accent);
+}
+
+.white-theme a.tag:hover,
+.light-theme a.tag:hover,
+html[data-theme='light'] a.tag:hover {
+  color: var(--ef-secondary-accent);
+}

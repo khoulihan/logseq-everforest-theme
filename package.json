@@ -1,0 +1,52 @@
+{
+  "name": "Everforest Theme",
+  "title": "Everforest",
+  "author": "Kevin Houlihan",
+  "version": "0.1.0",
+  "description": "Warm green low contrast theme",
+  "main": "index.html",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Everforest Dark Hard",
+        "url": "./everforest-dark-hard.css",
+        "description": "Dark version of the Everforest theme (high contrast variation)",
+        "mode": "dark"
+      },
+      {
+        "name": "Everforest Dark Medium",
+        "url": "./everforest-dark-medium.css",
+        "description": "Dark version of the Everforest theme",
+        "mode": "dark"
+      },
+      {
+        "name": "Everforest Dark Soft",
+        "url": "./everforest-dark-soft.css",
+        "description": "Dark version of the Everforest theme (low contrast variation)",
+        "mode": "dark"
+      },
+      {
+        "name": "Everforest Light Hard",
+        "url": "./everforest-light-hard.css",
+        "description": "Light version of the Everforest theme (high contrast variation)",
+        "mode": "light"
+      },
+      {
+        "name": "Everforest Light Medium",
+        "url": "./everforest-light-medium.css",
+        "description": "Light version of the Everforest theme",
+        "mode": "light"
+      },
+      {
+        "name": "Everforest Light Soft",
+        "url": "./everforest-light-soft.css",
+        "description": "Light version of the Everforest theme (low contrast variation)",
+        "mode": "light"
+      }
+    ],
+    "id": "hyh-everforest-theme"
+  },
+  "repo": "khoulihan/logseq-everforest-theme",
+  "theme": true,
+  "effect": false
+}

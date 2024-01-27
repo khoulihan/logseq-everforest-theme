@@ -1,0 +1,34 @@
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+  --ef-bg-dim: #efebd4;
+  --ef-bg0: #fdf6e3;
+  --ef-bg1: #f4f0d9;
+  --ef-bg2: #efebd4;
+  --ef-bg3: #e6e2cc;
+  --ef-bg4: #e0dcc7;
+  --ef-bg5: #bdc3af;
+  
+  --ef-bg-red: #fbe3da;
+  --ef-bg-visual: #eaedc8;
+  --ef-bg-yellow: #faedcd;
+  --ef-bg-green: #f0f1d2;
+  --ef-bg-blue: #e9f0e9;
+
+  --ef-red: #f85552;
+  --ef-orange: #f57d26;
+  --ef-yellow: #dfa000;
+  --ef-green: #8da101;
+  --ef-blue: #3a94c5;
+  --ef-aqua: #35a77c;
+  --ef-purple: #df69ba;
+
+  --ef-fg: #5c6a72;
+  --ef-fg-bright: #708089;
+  --ef-statusline1: #93b259;
+  --ef-statusline2: var(--ef-fg-bright);
+  --ef-statusline3: #e66868;
+  --ef-gray0: #a6b0a0;
+  --ef-gray1: #939f91;
+  --ef-gray2: #829181;
+}
